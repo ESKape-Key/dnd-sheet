@@ -1,27 +1,27 @@
 {
   "schema": 3,
-  "generatedAt": "2026-10-14T13:29:39.518Z",
+  "generatedAt": "2026-10-15T13:13:55.978Z",
   "sources": [
     {
       "key": "2024",
       "url": "https://github.com/5etools-mirror-3/5etools-src.git",
       "type": "official",
       "edition": "2024",
-      "commit": "8c026b807fac21862a309379a0c3228a0683198b"
+      "commit": "90d343cde64cf8dce1083ea0525a6b0b9e545f2e"
     },
     {
       "key": "2014",
       "url": "https://github.com/5etools-mirror-3/5etools-2014-src.git",
       "type": "official",
       "edition": "2014",
-      "commit": "27c01a9cf7a808af75c65db678665c7eb0f6d09a"
+      "commit": "e51b3c0707786370e7444d55a9d5a2086bdec591"
     },
     {
       "key": "homebrew",
       "url": "https://github.com/TheGiddyLimit/homebrew.git",
       "type": "homebrew",
       "edition": "both",
-      "commit": "61619dfc6ac08b7a36eaf12afbecf3439acbf131"
+      "commit": "85bf7ed179a5b3ab980ba18310286e72beb1d344"
     },
     {
       "key": "prerelease",
@@ -39,9 +39,9 @@
     }
   ],
   "totals": {
-    "entities": 72722,
-    "official": 11496,
-    "homebrew": 61226,
+    "entities": 72797,
+    "official": 11500,
+    "homebrew": 61297,
     "external": 68
   },
   "homebrew": {
@@ -269,6 +269,7 @@
       "raw/homebrew/collection/Clippinger, Alex; Monsters Without Borders.json",
       "raw/homebrew/collection/Creature Club; Creature Club Homebrew Collection.json",
       "raw/homebrew/collection/Cult Of Cthulhu; Vault's Codex.json",
+      "raw/homebrew/collection/D&D Beyond; D&D Beyond Drops.json",
       "raw/homebrew/collection/D&D Beyond; Legends of Runeterra Dark Tides of Bilgewater.json",
       "raw/homebrew/collection/DMs Guild; Archetypes of Eberron.json",
       "raw/homebrew/collection/DMsGuild; Rashemen.json",
@@ -683,7 +684,7 @@
       "raw/homebrew/subclass/zeek0; Hearth Domain Cleric.json",
       "raw/homebrew/subclass/zeek0; Ruin Domain.json"
     ],
-    "classFileCount": 636,
+    "classFileCount": 637,
     "raceFiles": [
       "raw/homebrew/class/Aron; Demi-Dragon.json",
       "raw/homebrew/class/High Lord Amaram; Witcher Class.json",
@@ -1199,7 +1200,8 @@
         "raw/homebrew/subclass/Middle Finger of Vecna; Waste Update.json",
         "raw/homebrew/subclass/MonkeyDM; Artificer Mortis Engineer.json",
         "raw/homebrew/subclass/Zixtank; The Grenadier Artificer Specialization.json",
-        "raw/homebrew/subclass/somanyrobots; Bardic Colleges.json"
+        "raw/homebrew/subclass/somanyrobots; Bardic Colleges.json",
+        "raw/homebrew/variantrule/MonkeyDM; Poison Rework 3.0.json"
       ],
       "spell": [
         "raw/homebrew/class/Aeron Drake; The Mesmer.json",
@@ -1690,7 +1692,8 @@
         "raw/homebrew/subclass/Alexander Smith; The Spellscarred Sorcerous Origin.json",
         "raw/homebrew/subclass/Mage Hand Press; Gunslinger Extras.json",
         "raw/homebrew/subclass/Matthew Mercer; Gunslinger.json",
-        "raw/homebrew/variantrule/Bovenbrew; Bovenbrew Weapon Arts.json"
+        "raw/homebrew/variantrule/Bovenbrew; Bovenbrew Weapon Arts.json",
+        "raw/homebrew/variantrule/MonkeyDM; Poison Rework 3.0.json"
       ],
       "background": [
         "raw/homebrew/background/Brewskii; Silver Thorn Background.json",
@@ -2240,6 +2243,7 @@
         "raw/homebrew/variantrule/Matthew Mercer; Corruption Rules.json",
         "raw/homebrew/variantrule/Metabot; Stealth Rules.json",
         "raw/homebrew/variantrule/Modnar; Modnars Mission Mandates.json",
+        "raw/homebrew/variantrule/MonkeyDM; Poison Rework 3.0.json",
         "raw/homebrew/variantrule/Pwines; Aerial Combat.json",
         "raw/homebrew/variantrule/RedCeramicFryPan; Staff Creation Rules.json",
         "raw/homebrew/variantrule/Rhinemann; Group Spellcasting.json",
