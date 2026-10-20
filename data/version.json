@@ -1,6 +1,6 @@
 {
   "schema": 3,
-  "generatedAt": "2026-10-19T15:26:28.599Z",
+  "generatedAt": "2026-10-20T13:27:51.057Z",
   "sources": [
     {
       "key": "2024",
@@ -21,7 +21,7 @@
       "url": "https://github.com/TheGiddyLimit/homebrew.git",
       "type": "homebrew",
       "edition": "both",
-      "commit": "5114a90b1847d90396991c23d59a9b0cbf804430"
+      "commit": "41876366677b3e615f9ffe37031247ce1960da37"
     },
     {
       "key": "prerelease",
