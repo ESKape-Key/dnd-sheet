@@ -10,7 +10,7 @@ Este diretório é gerado automaticamente pelo GitHub Actions.
 
 ## Última atualização
 
-2026-10-20T13:27:51.057Z
+2026-10-21T13:37:43.002Z
 
 ## Entidades
 
