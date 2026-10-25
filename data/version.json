@@ -1,27 +1,27 @@
 {
   "schema": 3,
-  "generatedAt": "2026-10-24T12:33:14.754Z",
+  "generatedAt": "2026-10-25T13:05:49.200Z",
   "sources": [
     {
       "key": "2024",
       "url": "https://github.com/5etools-mirror-3/5etools-src.git",
       "type": "official",
       "edition": "2024",
-      "commit": "90d343cde64cf8dce1083ea0525a6b0b9e545f2e"
+      "commit": "8790755429c346d20020eed7826d312d484c393f"
     },
     {
       "key": "2014",
       "url": "https://github.com/5etools-mirror-3/5etools-2014-src.git",
       "type": "official",
       "edition": "2014",
-      "commit": "e51b3c0707786370e7444d55a9d5a2086bdec591"
+      "commit": "26fdaebc48e66a1494c6092b97c60a3c4674c6d4"
     },
     {
       "key": "homebrew",
       "url": "https://github.com/TheGiddyLimit/homebrew.git",
       "type": "homebrew",
       "edition": "both",
-      "commit": "41876366677b3e615f9ffe37031247ce1960da37"
+      "commit": "069a70e491d5c4df83f6e94e8f48abb75cc0d49b"
     },
     {
       "key": "prerelease",
@@ -39,9 +39,9 @@
     }
   ],
   "totals": {
-    "entities": 72930,
+    "entities": 72968,
     "official": 11500,
-    "homebrew": 61430,
+    "homebrew": 61468,
     "external": 68
   },
   "homebrew": {
@@ -103,6 +103,7 @@
       "raw/homebrew/class/Giffyglyph; Class Compendium.json",
       "raw/homebrew/class/Heavyarms; Gunslinger.json",
       "raw/homebrew/class/Helodinn; Necromancer (maarlebw's edit).json",
+      "raw/homebrew/class/Henry Brownell; Warclad.json",
       "raw/homebrew/class/High Lord Amaram; Witcher Class.json",
       "raw/homebrew/class/Hukuna Dentata; The Commoner.json",
       "raw/homebrew/class/InfKore; Disciple.json",
@@ -684,7 +685,7 @@
       "raw/homebrew/subclass/zeek0; Hearth Domain Cleric.json",
       "raw/homebrew/subclass/zeek0; Ruin Domain.json"
     ],
-    "classFileCount": 637,
+    "classFileCount": 638,
     "raceFiles": [
       "raw/homebrew/class/Aron; Demi-Dragon.json",
       "raw/homebrew/class/High Lord Amaram; Witcher Class.json",
@@ -1192,6 +1193,7 @@
         "raw/homebrew/race/Niels de Jong; Homebrew Races.json",
         "raw/homebrew/subclass/Aevilok; Craftsman.json",
         "raw/homebrew/subclass/Alexander Smith; The Spellscarred Sorcerous Origin.json",
+        "raw/homebrew/subclass/DnDMessiah; Animeisekai.json",
         "raw/homebrew/subclass/Ghostfire Gaming; Artificer Subclasses.json",
         "raw/homebrew/subclass/Jake Hilton; Hoard of Heroes.json",
         "raw/homebrew/subclass/Mage Hand Press; Gunslinger Extras.json",
@@ -1822,6 +1824,7 @@
         "raw/homebrew/class/Fragsauce; Soul Binder Redux.json",
         "raw/homebrew/class/Giffyglyph; Class Compendium.json",
         "raw/homebrew/class/Heavyarms; Gunslinger.json",
+        "raw/homebrew/class/Henry Brownell; Warclad.json",
         "raw/homebrew/class/High Lord Amaram; Witcher Class.json",
         "raw/homebrew/class/InfKore; Disciple.json",
         "raw/homebrew/class/J.R. Raffles; The Ghost.json",

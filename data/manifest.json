@@ -1,27 +1,27 @@
 {
   "schema": 3,
-  "generatedAt": "2026-10-24T12:33:14.754Z",
+  "generatedAt": "2026-10-25T13:05:49.200Z",
   "sources": [
     {
       "key": "2024",
       "url": "https://github.com/5etools-mirror-3/5etools-src.git",
       "type": "official",
       "edition": "2024",
-      "commit": "90d343cde64cf8dce1083ea0525a6b0b9e545f2e"
+      "commit": "8790755429c346d20020eed7826d312d484c393f"
     },
     {
       "key": "2014",
       "url": "https://github.com/5etools-mirror-3/5etools-2014-src.git",
       "type": "official",
       "edition": "2014",
-      "commit": "e51b3c0707786370e7444d55a9d5a2086bdec591"
+      "commit": "26fdaebc48e66a1494c6092b97c60a3c4674c6d4"
     },
     {
       "key": "homebrew",
       "url": "https://github.com/TheGiddyLimit/homebrew.git",
       "type": "homebrew",
       "edition": "both",
-      "commit": "41876366677b3e615f9ffe37031247ce1960da37"
+      "commit": "069a70e491d5c4df83f6e94e8f48abb75cc0d49b"
     },
     {
       "key": "prerelease",
@@ -39,9 +39,9 @@
     }
   ],
   "totals": {
-    "entities": 72930,
+    "entities": 72968,
     "official": 11500,
-    "homebrew": 61430,
+    "homebrew": 61468,
     "external": 68
   },
   "entities": [
@@ -23478,6 +23478,25 @@
         "faces": 8
       },
       "spellcastingAbility": "int"
+    },
+    {
+      "id": "class:Warclad:Warclad:raw/homebrew/class/Henry Brownell; Warclad.json",
+      "type": "class",
+      "name": "Warclad",
+      "source": "Warclad",
+      "homebrew": true,
+      "prerelease": false,
+      "external": false,
+      "edition": "both",
+      "file": "raw/homebrew/class/Henry Brownell; Warclad.json",
+      "classes": [],
+      "className": null,
+      "classSource": null,
+      "hd": {
+        "number": 1,
+        "faces": 8
+      },
+      "spellcastingAbility": null
     },
     {
       "id": "class:MFOV:WD:Warden:raw/homebrew/class/Middle Finger of Vecna; Warden.json",
@@ -374284,6 +374303,22 @@
       "spellcastingAbility": null
     },
     {
+      "id": "item:AnimeIsekai:Senzu Bean:raw/homebrew/subclass/DnDMessiah; Animeisekai.json",
+      "type": "item",
+      "name": "Senzu Bean",
+      "source": "AnimeIsekai",
+      "homebrew": true,
+      "prerelease": false,
+      "external": false,
+      "edition": "both",
+      "file": "raw/homebrew/subclass/DnDMessiah; Animeisekai.json",
+      "classes": [],
+      "className": null,
+      "classSource": null,
+      "hd": null,
+      "spellcastingAbility": null
+    },
+    {
       "id": "item:24GriffonsSaddlebag1:Septum Ring of the Great Minotaur:raw/homebrew/collection/Griffin Macaulay; The Griffon's Saddlebag, Book 1 - 2024.json",
       "type": "item",
       "name": "Septum Ring of the Great Minotaur",
@@ -461388,6 +461423,22 @@
       "spellcastingAbility": null
     },
     {
+      "id": "optionalfeature:Warclad:Aerial Form:raw/homebrew/class/Henry Brownell; Warclad.json",
+      "type": "optionalfeature",
+      "name": "Aerial Form",
+      "source": "Warclad",
+      "homebrew": true,
+      "prerelease": false,
+      "external": false,
+      "edition": "both",
+      "file": "raw/homebrew/class/Henry Brownell; Warclad.json",
+      "classes": [],
+      "className": null,
+      "classSource": null,
+      "hd": null,
+      "spellcastingAbility": null
+    },
+    {
       "id": "optionalfeature:DZC:ANA:M:Aerial Lift:raw/homebrew/class/Dusk Zargoth; Monk Rework.json",
       "type": "optionalfeature",
       "name": "Aerial Lift",
@@ -465084,6 +465135,22 @@
       "spellcastingAbility": null
     },
     {
+      "id": "optionalfeature:Warclad:Analysis Display:raw/homebrew/class/Henry Brownell; Warclad.json",
+      "type": "optionalfeature",
+      "name": "Analysis Display",
+      "source": "Warclad",
+      "homebrew": true,
+      "prerelease": false,
+      "external": false,
+      "edition": "both",
+      "file": "raw/homebrew/class/Henry Brownell; Warclad.json",
+      "classes": [],
+      "className": null,
+      "classSource": null,
+      "hd": null,
+      "spellcastingAbility": null
+    },
+    {
       "id": "optionalfeature:CoH-Weaveknight:Anathema:raw/homebrew/class/Chronicle of Heroes; The Weaveknight (v4.0).json",
       "type": "optionalfeature",
       "name": "Anathema",
@@ -466965,6 +467032,22 @@
       "external": false,
       "edition": "both",
       "file": "raw/homebrew/collection/Sterling Vermin Adventuring Co.; The Ultimate Adventurer's Handbook.json",
+      "classes": [],
+      "className": null,
+      "classSource": null,
+      "hd": null,
+      "spellcastingAbility": null
+    },
+    {
+      "id": "optionalfeature:Warclad:Aquatic Form:raw/homebrew/class/Henry Brownell; Warclad.json",
+      "type": "optionalfeature",
+      "name": "Aquatic Form",
+      "source": "Warclad",
+      "homebrew": true,
+      "prerelease": false,
+      "external": false,
+      "edition": "both",
+      "file": "raw/homebrew/class/Henry Brownell; Warclad.json",
       "classes": [],
       "className": null,
       "classSource": null,
@@ -474092,6 +474175,22 @@
       "spellcastingAbility": null
     },
     {
+      "id": "optionalfeature:Warclad:Autonomous Combatant:raw/homebrew/class/Henry Brownell; Warclad.json",
+      "type": "optionalfeature",
+      "name": "Autonomous Combatant",
+      "source": "Warclad",
+      "homebrew": true,
+      "prerelease": false,
+      "external": false,
+      "edition": "both",
+      "file": "raw/homebrew/class/Henry Brownell; Warclad.json",
+      "classes": [],
+      "className": null,
+      "classSource": null,
+      "hd": null,
+      "spellcastingAbility": null
+    },
+    {
       "id": "optionalfeature:ToH:Autonomous Spell:raw/homebrew/collection/Kobold Press; Tome of Heroes.json",
       "type": "optionalfeature",
       "name": "Autonomous Spell",
@@ -478133,6 +478232,22 @@
       "external": false,
       "edition": "both",
       "file": "raw/homebrew/collection/Sterling Vermin Adventuring Co.; The Ultimate Adventurer's Handbook.json",
+      "classes": [],
+      "className": null,
+      "classSource": null,
+      "hd": null,
+      "spellcastingAbility": null
+    },
+    {
+      "id": "optionalfeature:Warclad:Battlewagon:raw/homebrew/class/Henry Brownell; Warclad.json",
+      "type": "optionalfeature",
+      "name": "Battlewagon",
+      "source": "Warclad",
+      "homebrew": true,
+      "prerelease": false,
+      "external": false,
+      "edition": "both",
+      "file": "raw/homebrew/class/Henry Brownell; Warclad.json",
       "classes": [],
       "className": null,
       "classSource": null,
@@ -497900,6 +498015,22 @@
       "spellcastingAbility": null
     },
     {
+      "id": "optionalfeature:Warclad:Chariot:raw/homebrew/class/Henry Brownell; Warclad.json",
+      "type": "optionalfeature",
+      "name": "Chariot",
+      "source": "Warclad",
+      "homebrew": true,
+      "prerelease": false,
+      "external": false,
+      "edition": "both",
+      "file": "raw/homebrew/class/Henry Brownell; Warclad.json",
+      "classes": [],
+      "className": null,
+      "classSource": null,
+      "hd": null,
+      "spellcastingAbility": null
+    },
+    {
       "id": "optionalfeature:WoSkTr:Charismatic:raw/homebrew/collection/Lord Woolfy; Woolfy's Skill Trees.json",
       "type": "optionalfeature",
       "name": "Charismatic",
@@ -516684,6 +516815,22 @@
       "spellcastingAbility": null
     },
     {
+      "id": "optionalfeature:Warclad:Defensive Modalities:raw/homebrew/class/Henry Brownell; Warclad.json",
+      "type": "optionalfeature",
+      "name": "Defensive Modalities",
+      "source": "Warclad",
+      "homebrew": true,
+      "prerelease": false,
+      "external": false,
+      "edition": "both",
+      "file": "raw/homebrew/class/Henry Brownell; Warclad.json",
+      "classes": [],
+      "className": null,
+      "classSource": null,
+      "hd": null,
+      "spellcastingAbility": null
+    },
+    {
       "id": "optionalfeature:DS:E:Defensive Offense:raw/homebrew/optionalfeature/Damian Steele; Exploits.json",
       "type": "optionalfeature",
       "name": "Defensive Offense",
@@ -517221,6 +517368,22 @@
       "external": false,
       "edition": "both",
       "file": "raw/homebrew/class/Marc Wegmann; The Dream Shifter.json",
+      "classes": [],
+      "className": null,
+      "classSource": null,
+      "hd": null,
+      "spellcastingAbility": null
+    },
+    {
+      "id": "optionalfeature:Warclad:Deflecting Plates:raw/homebrew/class/Henry Brownell; Warclad.json",
+      "type": "optionalfeature",
+      "name": "Deflecting Plates",
+      "source": "Warclad",
+      "homebrew": true,
+      "prerelease": false,
+      "external": false,
+      "edition": "both",
+      "file": "raw/homebrew/class/Henry Brownell; Warclad.json",
       "classes": [],
       "className": null,
       "classSource": null,
@@ -544732,6 +544895,22 @@
       "spellcastingAbility": null
     },
     {
+      "id": "optionalfeature:Warclad:Failsafe:raw/homebrew/class/Henry Brownell; Warclad.json",
+      "type": "optionalfeature",
+      "name": "Failsafe",
+      "source": "Warclad",
+      "homebrew": true,
+      "prerelease": false,
+      "external": false,
+      "edition": "both",
+      "file": "raw/homebrew/class/Henry Brownell; Warclad.json",
+      "classes": [],
+      "className": null,
+      "classSource": null,
+      "hd": null,
+      "spellcastingAbility": null
+    },
+    {
       "id": "optionalfeature:RyokoGuideToYokaiRealms:Fair Fighter:raw/homebrew/collection/Loot Tavern; Ryoko's Guide to the Yokai Realms.json",
       "type": "optionalfeature",
       "name": "Fair Fighter",
@@ -556229,6 +556408,22 @@
       "external": false,
       "edition": "both",
       "file": "raw/homebrew/collection/Modnar; Modnars Menagerie of (most often Mamialian) Mates - Familiars and Companions.json",
+      "classes": [],
+      "className": null,
+      "classSource": null,
+      "hd": null,
+      "spellcastingAbility": null
+    },
+    {
+      "id": "optionalfeature:Warclad:Fortress:raw/homebrew/class/Henry Brownell; Warclad.json",
+      "type": "optionalfeature",
+      "name": "Fortress",
+      "source": "Warclad",
+      "homebrew": true,
+      "prerelease": false,
+      "external": false,
+      "edition": "both",
+      "file": "raw/homebrew/class/Henry Brownell; Warclad.json",
       "classes": [],
       "className": null,
       "classSource": null,
@@ -575324,6 +575519,22 @@
       "spellcastingAbility": null
     },
     {
+      "id": "optionalfeature:Warclad:Hulking Form:raw/homebrew/class/Henry Brownell; Warclad.json",
+      "type": "optionalfeature",
+      "name": "Hulking Form",
+      "source": "Warclad",
+      "homebrew": true,
+      "prerelease": false,
+      "external": false,
+      "edition": "both",
+      "file": "raw/homebrew/class/Henry Brownell; Warclad.json",
+      "classes": [],
+      "className": null,
+      "classSource": null,
+      "hd": null,
+      "spellcastingAbility": null
+    },
+    {
       "id": "optionalfeature:PlayerTalents1:Human Aptitude:raw/homebrew/optionalfeature/Dragonix; Character Options Talents Book 1.json",
       "type": "optionalfeature",
       "name": "Human Aptitude",
@@ -576485,6 +576696,22 @@
       "external": false,
       "edition": "both",
       "file": "raw/homebrew/class/Sam Grierson; The Cook Class.json",
+      "classes": [],
+      "className": null,
+      "classSource": null,
+      "hd": null,
+      "spellcastingAbility": null
+    },
+    {
+      "id": "optionalfeature:Warclad:Hydraulic Strikes:raw/homebrew/class/Henry Brownell; Warclad.json",
+      "type": "optionalfeature",
+      "name": "Hydraulic Strikes",
+      "source": "Warclad",
+      "homebrew": true,
+      "prerelease": false,
+      "external": false,
+      "edition": "both",
+      "file": "raw/homebrew/class/Henry Brownell; Warclad.json",
       "classes": [],
       "className": null,
       "classSource": null,
@@ -591324,6 +591551,22 @@
       "spellcastingAbility": null
     },
     {
+      "id": "optionalfeature:Warclad:Launcher:raw/homebrew/class/Henry Brownell; Warclad.json",
+      "type": "optionalfeature",
+      "name": "Launcher",
+      "source": "Warclad",
+      "homebrew": true,
+      "prerelease": false,
+      "external": false,
+      "edition": "both",
+      "file": "raw/homebrew/class/Henry Brownell; Warclad.json",
+      "classes": [],
+      "className": null,
+      "classSource": null,
+      "hd": null,
+      "spellcastingAbility": null
+    },
+    {
       "id": "optionalfeature:EP:Launching Maneuver:raw/homebrew/class/Tandra_Boy; The Empowered.json",
       "type": "optionalfeature",
       "name": "Launching Maneuver",
@@ -595317,6 +595560,22 @@
       "external": false,
       "edition": "both",
       "file": "raw/homebrew/class/LaserLlama; Savant.json",
+      "classes": [],
+      "className": null,
+      "classSource": null,
+      "hd": null,
+      "spellcastingAbility": null
+    },
+    {
+      "id": "optionalfeature:Warclad:Link-Up Module:raw/homebrew/class/Henry Brownell; Warclad.json",
+      "type": "optionalfeature",
+      "name": "Link-Up Module",
+      "source": "Warclad",
+      "homebrew": true,
+      "prerelease": false,
+      "external": false,
+      "edition": "both",
+      "file": "raw/homebrew/class/Henry Brownell; Warclad.json",
       "classes": [],
       "className": null,
       "classSource": null,
@@ -618668,6 +618927,22 @@
       "spellcastingAbility": null
     },
     {
+      "id": "optionalfeature:Warclad:Ornithopter:raw/homebrew/class/Henry Brownell; Warclad.json",
+      "type": "optionalfeature",
+      "name": "Ornithopter",
+      "source": "Warclad",
+      "homebrew": true,
+      "prerelease": false,
+      "external": false,
+      "edition": "both",
+      "file": "raw/homebrew/class/Henry Brownell; Warclad.json",
+      "classes": [],
+      "className": null,
+      "classSource": null,
+      "hd": null,
+      "spellcastingAbility": null
+    },
+    {
       "id": "optionalfeature:ToH:Orotorem:raw/homebrew/collection/Kobold Press; Tome of Heroes.json",
       "type": "optionalfeature",
       "name": "Orotorem",
@@ -638700,6 +638975,22 @@
       "spellcastingAbility": null
     },
     {
+      "id": "optionalfeature:Warclad:Racing Form:raw/homebrew/class/Henry Brownell; Warclad.json",
+      "type": "optionalfeature",
+      "name": "Racing Form",
+      "source": "Warclad",
+      "homebrew": true,
+      "prerelease": false,
+      "external": false,
+      "edition": "both",
+      "file": "raw/homebrew/class/Henry Brownell; Warclad.json",
+      "classes": [],
+      "className": null,
+      "classSource": null,
+      "hd": null,
+      "spellcastingAbility": null
+    },
+    {
       "id": "optionalfeature:DS:E:Radiant Armor:raw/homebrew/optionalfeature/Damian Steele; Exploits.json",
       "type": "optionalfeature",
       "name": "Radiant Armor",
@@ -640053,6 +640344,22 @@
       "external": false,
       "edition": "both",
       "file": "raw/homebrew/optionalfeature/Damian Steele; Exploits.json",
+      "classes": [],
+      "className": null,
+      "classSource": null,
+      "hd": null,
+      "spellcastingAbility": null
+    },
+    {
+      "id": "optionalfeature:Warclad:Rampart:raw/homebrew/class/Henry Brownell; Warclad.json",
+      "type": "optionalfeature",
+      "name": "Rampart",
+      "source": "Warclad",
+      "homebrew": true,
+      "prerelease": false,
+      "external": false,
+      "edition": "both",
+      "file": "raw/homebrew/class/Henry Brownell; Warclad.json",
       "classes": [],
       "className": null,
       "classSource": null,
@@ -641861,6 +642168,22 @@
       "external": false,
       "edition": "both",
       "file": "raw/homebrew/subclass/LaserLlama; Fighter Archetypes & Fighting Styles.json",
+      "classes": [],
+      "className": null,
+      "classSource": null,
+      "hd": null,
+      "spellcastingAbility": null
+    },
+    {
+      "id": "optionalfeature:Warclad:Rebreather:raw/homebrew/class/Henry Brownell; Warclad.json",
+      "type": "optionalfeature",
+      "name": "Rebreather",
+      "source": "Warclad",
+      "homebrew": true,
+      "prerelease": false,
+      "external": false,
+      "edition": "both",
+      "file": "raw/homebrew/class/Henry Brownell; Warclad.json",
       "classes": [],
       "className": null,
       "classSource": null,
@@ -658876,6 +659199,22 @@
       "spellcastingAbility": null
     },
     {
+      "id": "optionalfeature:Warclad:Self-Repair:raw/homebrew/class/Henry Brownell; Warclad.json",
+      "type": "optionalfeature",
+      "name": "Self-Repair",
+      "source": "Warclad",
+      "homebrew": true,
+      "prerelease": false,
+      "external": false,
+      "edition": "both",
+      "file": "raw/homebrew/class/Henry Brownell; Warclad.json",
+      "classes": [],
+      "className": null,
+      "classSource": null,
+      "hd": null,
+      "spellcastingAbility": null
+    },
+    {
       "id": "optionalfeature:KibbleInventor:Self-Repair Matrix:raw/homebrew/class/KibblesTasty; Inventor.json",
       "type": "optionalfeature",
       "name": "Self-Repair Matrix",
@@ -667228,6 +667567,22 @@
       "spellcastingAbility": null
     },
     {
+      "id": "optionalfeature:Warclad:Skimmer:raw/homebrew/class/Henry Brownell; Warclad.json",
+      "type": "optionalfeature",
+      "name": "Skimmer",
+      "source": "Warclad",
+      "homebrew": true,
+      "prerelease": false,
+      "external": false,
+      "edition": "both",
+      "file": "raw/homebrew/class/Henry Brownell; Warclad.json",
+      "classes": [],
+      "className": null,
+      "classSource": null,
+      "hd": null,
+      "spellcastingAbility": null
+    },
+    {
       "id": "optionalfeature:ValdaGunslinger:Skin of Your Teeth:raw/homebrew/class/Mage Hand Press; Gunslinger.json",
       "type": "optionalfeature",
       "name": "Skin of Your Teeth",
@@ -668853,6 +669208,22 @@
       "external": false,
       "edition": "both",
       "file": "raw/homebrew/collection/SilentSoren; 5th Edition D&D x Final Fantasy XIV - Classes and Races Compendium.json",
+      "classes": [],
+      "className": null,
+      "classSource": null,
+      "hd": null,
+      "spellcastingAbility": null
+    },
+    {
+      "id": "optionalfeature:Warclad:Sloop:raw/homebrew/class/Henry Brownell; Warclad.json",
+      "type": "optionalfeature",
+      "name": "Sloop",
+      "source": "Warclad",
+      "homebrew": true,
+      "prerelease": false,
+      "external": false,
+      "edition": "both",
+      "file": "raw/homebrew/class/Henry Brownell; Warclad.json",
       "classes": [],
       "className": null,
       "classSource": null,
@@ -683900,6 +684271,22 @@
       "spellcastingAbility": null
     },
     {
+      "id": "optionalfeature:Warclad:Subterranean Form:raw/homebrew/class/Henry Brownell; Warclad.json",
+      "type": "optionalfeature",
+      "name": "Subterranean Form",
+      "source": "Warclad",
+      "homebrew": true,
+      "prerelease": false,
+      "external": false,
+      "edition": "both",
+      "file": "raw/homebrew/class/Henry Brownell; Warclad.json",
+      "classes": [],
+      "className": null,
+      "classSource": null,
+      "hd": null,
+      "spellcastingAbility": null
+    },
+    {
       "id": "optionalfeature:LLSavE:Subterranean Morsel:raw/homebrew/class/LaserLlama; Savant.json",
       "type": "optionalfeature",
       "name": "Subterranean Morsel",
@@ -689685,6 +690072,22 @@
       "external": false,
       "edition": "both",
       "file": "raw/homebrew/collection/Mage Hand Press; Valda's Spire of Secrets - 2014.json",
+      "classes": [],
+      "className": null,
+      "classSource": null,
+      "hd": null,
+      "spellcastingAbility": null
+    },
+    {
+      "id": "optionalfeature:Warclad:System Diagnostic:raw/homebrew/class/Henry Brownell; Warclad.json",
+      "type": "optionalfeature",
+      "name": "System Diagnostic",
+      "source": "Warclad",
+      "homebrew": true,
+      "prerelease": false,
+      "external": false,
+      "edition": "both",
+      "file": "raw/homebrew/class/Henry Brownell; Warclad.json",
       "classes": [],
       "className": null,
       "classSource": null,
@@ -696348,6 +696751,22 @@
       "spellcastingAbility": null
     },
     {
+      "id": "optionalfeature:Warclad:Threat Detector:raw/homebrew/class/Henry Brownell; Warclad.json",
+      "type": "optionalfeature",
+      "name": "Threat Detector",
+      "source": "Warclad",
+      "homebrew": true,
+      "prerelease": false,
+      "external": false,
+      "edition": "both",
+      "file": "raw/homebrew/class/Henry Brownell; Warclad.json",
+      "classes": [],
+      "className": null,
+      "classSource": null,
+      "hd": null,
+      "spellcastingAbility": null
+    },
+    {
       "id": "optionalfeature:DS:E:Threat the Needle:raw/homebrew/optionalfeature/Damian Steele; Exploits.json",
       "type": "optionalfeature",
       "name": "Threat the Needle",
@@ -702053,6 +702472,22 @@
       "external": false,
       "edition": "both",
       "file": "raw/homebrew/collection/Daniel Whyte; Hidal's Tome of the Esoteric.json",
+      "classes": [],
+      "className": null,
+      "classSource": null,
+      "hd": null,
+      "spellcastingAbility": null
+    },
+    {
+      "id": "optionalfeature:Warclad:Traversal Compensators:raw/homebrew/class/Henry Brownell; Warclad.json",
+      "type": "optionalfeature",
+      "name": "Traversal Compensators",
+      "source": "Warclad",
+      "homebrew": true,
+      "prerelease": false,
+      "external": false,
+      "edition": "both",
+      "file": "raw/homebrew/class/Henry Brownell; Warclad.json",
       "classes": [],
       "className": null,
       "classSource": null,
@@ -972244,6 +972679,27 @@
       "spellcastingAbility": null
     },
     {
+      "id": "spell:FftForbiddenTome:Mutual Exclusion:raw/homebrew/collection/The Last Archivist; Fragments of the Forbidden Tome.json",
+      "type": "spell",
+      "name": "Mutual Exclusion",
+      "source": "FftForbiddenTome",
+      "homebrew": true,
+      "prerelease": false,
+      "external": false,
+      "edition": "both",
+      "file": "raw/homebrew/collection/The Last Archivist; Fragments of the Forbidden Tome.json",
+      "classes": [
+        "Cleric",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "className": null,
+      "classSource": null,
+      "hd": null,
+      "spellcastingAbility": null
+    },
+    {
       "id": "spell:IRKBnB:Muzzle:raw/homebrew/collection/Privateer Press; Iron Kingdoms Requiem - Borderlands & Beyond.json",
       "type": "spell",
       "name": "Muzzle",
@@ -1063733,6 +1064189,27 @@
       "spellcastingAbility": null
     },
     {
+      "id": "spell:FftForbiddenTome:The Invisible Estate:raw/homebrew/collection/The Last Archivist; Fragments of the Forbidden Tome.json",
+      "type": "spell",
+      "name": "The Invisible Estate",
+      "source": "FftForbiddenTome",
+      "homebrew": true,
+      "prerelease": false,
+      "external": false,
+      "edition": "both",
+      "file": "raw/homebrew/collection/The Last Archivist; Fragments of the Forbidden Tome.json",
+      "classes": [
+        "Bard",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "className": null,
+      "classSource": null,
+      "hd": null,
+      "spellcastingAbility": null
+    },
+    {
       "id": "spell:FftForbiddenTome:The Iron Funeral:raw/homebrew/collection/The Last Archivist; Fragments of the Forbidden Tome.json",
       "type": "spell",
       "name": "The Iron Funeral",
@@ -1109809,6 +1110286,22 @@
       "spellcastingAbility": null
     },
     {
+      "id": "subclass:Warclad:Bulwark:raw/homebrew/class/Henry Brownell; Warclad.json",
+      "type": "subclass",
+      "name": "Bulwark",
+      "source": "Warclad",
+      "homebrew": true,
+      "prerelease": false,
+      "external": false,
+      "edition": "both",
+      "file": "raw/homebrew/class/Henry Brownell; Warclad.json",
+      "classes": [],
+      "className": "Warclad",
+      "classSource": "Warclad",
+      "hd": null,
+      "spellcastingAbility": null
+    },
+    {
       "id": "subclass:GrimHollowPG24:Bulwark Warrior:raw/homebrew/collection/Ghostfire Gaming; Grim Hollow - Player's Guide - 2024.json",
       "type": "subclass",
       "name": "Bulwark Warrior",
@@ -1121841,6 +1122334,22 @@
       "spellcastingAbility": null
     },
     {
+      "id": "subclass:Warclad:Crusader:raw/homebrew/class/Henry Brownell; Warclad.json",
+      "type": "subclass",
+      "name": "Crusader",
+      "source": "Warclad",
+      "homebrew": true,
+      "prerelease": false,
+      "external": false,
+      "edition": "both",
+      "file": "raw/homebrew/class/Henry Brownell; Warclad.json",
+      "classes": [],
+      "className": "Warclad",
+      "classSource": "Warclad",
+      "hd": null,
+      "spellcastingAbility": null
+    },
+    {
       "id": "subclass:LLAF:E:Crusader:raw/homebrew/class/LaserLlama; Alternate Fighter.json",
       "type": "subclass",
       "name": "Crusader",
@@ -1130257,6 +1130766,22 @@
       "spellcastingAbility": null
     },
     {
+      "id": "subclass:Warclad:Fleshbinder:raw/homebrew/class/Henry Brownell; Warclad.json",
+      "type": "subclass",
+      "name": "Fleshbinder",
+      "source": "Warclad",
+      "homebrew": true,
+      "prerelease": false,
+      "external": false,
+      "edition": "both",
+      "file": "raw/homebrew/class/Henry Brownell; Warclad.json",
+      "classes": [],
+      "className": "Warclad",
+      "classSource": "Warclad",
+      "hd": null,
+      "spellcastingAbility": null
+    },
+    {
       "id": "subclass:KibbleInventor:Fleshsmith:raw/homebrew/class/KibblesTasty; Inventor.json",
       "type": "subclass",
       "name": "Fleshsmith",
@@ -1136849,6 +1137374,22 @@
       "spellcastingAbility": null
     },
     {
+      "id": "subclass:Warclad:Injector:raw/homebrew/class/Henry Brownell; Warclad.json",
+      "type": "subclass",
+      "name": "Injector",
+      "source": "Warclad",
+      "homebrew": true,
+      "prerelease": false,
+      "external": false,
+      "edition": "both",
+      "file": "raw/homebrew/class/Henry Brownell; Warclad.json",
+      "classes": [],
+      "className": "Warclad",
+      "classSource": "Warclad",
+      "hd": null,
+      "spellcastingAbility": null
+    },
+    {
       "id": "subclass:IVSO:Inner Visage:raw/homebrew/subclass/Hicks Homebrew; Inner Visage Sorcerous Origin.json",
       "type": "subclass",
       "name": "Inner Visage",
@@ -1137359,6 +1137900,22 @@
       "classSource": "ValdaSpire24",
       "hd": null,
       "spellcastingAbility": null
+    },
+    {
+      "id": "subclass:Warclad:Iron Mage:raw/homebrew/class/Henry Brownell; Warclad.json",
+      "type": "subclass",
+      "name": "Iron Mage",
+      "source": "Warclad",
+      "homebrew": true,
+      "prerelease": false,
+      "external": false,
+      "edition": "both",
+      "file": "raw/homebrew/class/Henry Brownell; Warclad.json",
+      "classes": [],
+      "className": "Warclad",
+      "classSource": "Warclad",
+      "hd": null,
+      "spellcastingAbility": "int"
     },
     {
       "id": "subclass:IRKNEmp:Iron Monger:raw/homebrew/collection/Privateer Press; Iron Kingdoms Requiem - Nightmare Empire.json",
@@ -1141389,6 +1141946,22 @@
       "classes": [],
       "className": "Artificer",
       "classSource": "TCE",
+      "hd": null,
+      "spellcastingAbility": null
+    },
+    {
+      "id": "subclass:Warclad:Mechanomorph:raw/homebrew/class/Henry Brownell; Warclad.json",
+      "type": "subclass",
+      "name": "Mechanomorph",
+      "source": "Warclad",
+      "homebrew": true,
+      "prerelease": false,
+      "external": false,
+      "edition": "both",
+      "file": "raw/homebrew/class/Henry Brownell; Warclad.json",
+      "classes": [],
+      "className": "Warclad",
+      "classSource": "Warclad",
       "hd": null,
       "spellcastingAbility": null
     },
@@ -1175841,6 +1176414,22 @@
       "spellcastingAbility": null
     },
     {
+      "id": "subclass:Warclad:Toa:raw/homebrew/class/Henry Brownell; Warclad.json",
+      "type": "subclass",
+      "name": "Toa",
+      "source": "Warclad",
+      "homebrew": true,
+      "prerelease": false,
+      "external": false,
+      "edition": "both",
+      "file": "raw/homebrew/class/Henry Brownell; Warclad.json",
+      "classes": [],
+      "className": "Warclad",
+      "classSource": "Warclad",
+      "hd": null,
+      "spellcastingAbility": "int"
+    },
+    {
       "id": "subclass:VSS:Toon Magic:raw/homebrew/collection/Mage Hand Press; Valda's Spire of Secrets - 2014.json",
       "type": "subclass",
       "name": "Toon Magic",
@@ -1178125,6 +1178714,22 @@
       "classes": [],
       "className": "Sorcerer",
       "classSource": "PHB",
+      "hd": null,
+      "spellcastingAbility": null
+    },
+    {
+      "id": "subclass:Warclad:Vanguard:raw/homebrew/class/Henry Brownell; Warclad.json",
+      "type": "subclass",
+      "name": "Vanguard",
+      "source": "Warclad",
+      "homebrew": true,
+      "prerelease": false,
+      "external": false,
+      "edition": "both",
+      "file": "raw/homebrew/class/Henry Brownell; Warclad.json",
+      "classes": [],
+      "className": "Warclad",
+      "classSource": "Warclad",
       "hd": null,
       "spellcastingAbility": null
     },
@@ -1184237,6 +1184842,22 @@
       "classes": [],
       "className": "Lycanthrope",
       "classSource": "MonsterClassesII",
+      "hd": null,
+      "spellcastingAbility": null
+    },
+    {
+      "id": "subclass:Warclad:Wetworker:raw/homebrew/class/Henry Brownell; Warclad.json",
+      "type": "subclass",
+      "name": "Wetworker",
+      "source": "Warclad",
+      "homebrew": true,
+      "prerelease": false,
+      "external": false,
+      "edition": "both",
+      "file": "raw/homebrew/class/Henry Brownell; Warclad.json",
+      "classes": [],
+      "className": "Warclad",
+      "classSource": "Warclad",
       "hd": null,
       "spellcastingAbility": null
     },
