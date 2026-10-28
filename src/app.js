@@ -14,7 +14,7 @@ import {
   saveCharacter, loadCharacter, downloadCharacter, readCharacterFile, getSeenDataVersion, setSeenDataVersion,
   getSavedSkin, saveSkin, SKINS, getSavedCreationMode, saveCreationMode, getTemplates, saveTemplates,
   migrateLegacyCharacter, getActiveCharacterId, setActiveCharacterId, listCharacters, createCharacterSlot, deleteCharacterSlot, loadCharacterById, saveCharacterAs,
-  getDiscordWebhook, saveDiscordWebhook, getFoundryVttUrl, saveFoundryVttUrl,
+ getDiscordWebhook, saveDiscordWebhook, getDiscordAvatarSync, saveDiscordAvatarSync, getFoundryVttUrl, saveFoundryVttUrl,
   getRoomCode, saveRoomCode, getAppliedHeals, markHealApplied, getAppliedDamages, markDamageApplied,
   getMonsterLists, saveMonsterLists, newMonsterListId, getActiveMonsterListId, setActiveMonsterListId,
   isDisclaimerDismissed, dismissDisclaimer,
@@ -3090,12 +3090,57 @@ function discordMessage(label, detail, total) {
 function discordTurnMessage(name, round) {
   return `⚔️ Rodada **${round}** — é a vez de **${name}**!`;
 }
+const DISCORD_AVATAR_MAX = 2048;
+const isHttpUrl = (u) => typeof u === "string" && u.length <= DISCORD_AVATAR_MAX && /^https?:\/\//i.test(u);
+const discordAvatarFailed = new Set(); // hashes que o Discord já recusou nesta sessão (evita insistir a cada rolagem)
+
+async function hashText(s) {
+  try {
+    const buf = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(s));
+    return [...new Uint8Array(buf)].map((b) => b.toString(16).padStart(2, "0")).join("");
+  } catch { return `${s.length}:${s.slice(-64)}`; }
+}
+
+// URL do webhook sem query (?thread_id=…) — o PATCH de avatar não usa thread.
+function discordWebhookBase(url) {
+  try { const u = new URL(url); u.search = ""; u.hash = ""; return u.toString(); } catch { return null; }
+}
+
+// Se o retrato mudou desde o último envio, troca o avatar padrão do webhook (PATCH com token,
+// sem permissão extra). Sem retrato mas com um avatar nosso já enviado antes: limpa o avatar.
+async function syncDiscordAvatar(url, portrait) {
+  try {
+    const base = discordWebhookBase(url);
+    const id = /\/webhooks\/(\d+)\//.exec(base || "")?.[1];
+    if (!base || !id) return;
+    const isImage = typeof portrait === "string" && /^data:image\/(?:png|jpe?g|gif|webp);base64,/i.test(portrait);
+    const last = getDiscordAvatarSync();
+    const lastHash = last.startsWith(`${id}:`) ? last.slice(id.length + 1) : "";
+    const hash = isImage ? await hashText(portrait) : "";
+    if (hash === lastHash) return;                 // nada mudou
+    if (!isImage && !lastHash) return;             // sem retrato e nada enviado antes: não mexe no webhook
+    if (hash && discordAvatarFailed.has(hash)) return;
+    const res = await fetch(base, {
+      method: "PATCH",
+      mode: "cors",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ avatar: isImage ? portrait : null }),
+    });
+    if (res.ok) saveDiscordAvatarSync(hash ? `${id}:${hash}` : "");
+    else {
+      if (hash && res.status !== 429) discordAvatarFailed.add(hash);
+      toast(`Discord recusou o novo avatar (HTTP ${res.status}).`);
+    }
+  } catch { /* a rolagem segue mesmo se o avatar falhar */ }
+}
+
 async function sendToDiscord(text, opts = {}) {
   const url = getDiscordWebhook();
   if (!url) return;
   try {
     const payload = { content: text.slice(0, 1900) };
-    if (opts.avatarUrl) payload.avatar_url = opts.avatarUrl;
+    if (isHttpUrl(opts.avatarUrl)) payload.avatar_url = opts.avatarUrl; // link público: vale só nesta mensagem
+    else await syncDiscordAvatar(url, opts.avatarUrl);                  // retrato (data URI) ou ausência dele
     if (opts.embeds) payload.embeds = opts.embeds;
     const res = await fetch(url, {
       method: "POST",
